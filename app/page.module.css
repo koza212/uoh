@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #000000, #eeff00, #000000);
+    color: #000000;
+}
+.product:hover{
+    transform: scale(105%);
+}
+.product{
+    border: 5px solid rgba(0, 0, 0, 0.5);
+}
